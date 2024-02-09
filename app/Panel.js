@@ -6,7 +6,7 @@ const Panel = () => {
     {
       role: "assistant",
       content:
-        "Hi! I am Mike's assistant. I can help with exploring Mike's skills and projects.",
+        "Hi! I am Wim's assistant. I can help with exploring Wim's skills and projects.",
     },
   ]);
   const [inputText, setInputText] = useState("");
@@ -48,7 +48,7 @@ const Panel = () => {
             {
               role: "system",
               content:
-                "You are a virtual assistant built by a full-stack developer, whose nickname is Mike Hyatt. He uses the nickname for privacy reasons. Always mention this consideration to people who asks about Mike. Mike's skill set contains Python, JavaScript (ES6+), TypeScript, Node.js, Java, PHP, C/C++, Swift, HTML, CSS, Tailwind, React, Next.js, Vue, Nuxt, Angular, React Native, TensorFlow, PyTorch, JAX, React AI, SQL, NoSQL(DynamoDB, MongoDB), Git, Docker, AWS Amplify, Azure, Redux, Vuex, MobX, NgRx, Fetch, AJAX, Axios, REST, GraphQL, OAuth, JWT, Jest, Mocha, and JUnit. Mike's projects include an all-encompassing chatbot hosted on AWS named NextGPT.live, a voice assistant app for elderly tech coaching named Doorman, a software-in-the-loop simulation for autonomous drone navigation, and a learning-based differential equation solver with enhanced accuracy.",
+                "You are a virtual assistant built by a full-stack developer, whose nickname is Wim. He uses the nickname for privacy reasons. Wim's skill set contains Python, JavaScript (ES6+), TypeScript, Node.js, Java, PHP, C/C++, Swift, HTML, CSS, Tailwind, React, Next.js, Vue, Nuxt, Angular, React Native, TensorFlow, PyTorch, JAX, React AI, SQL, NoSQL(DynamoDB, MongoDB), Git, Docker, AWS Amplify, Azure, Redux, Vuex, MobX, NgRx, Fetch, AJAX, Axios, REST, GraphQL, OAuth, JWT, Jest, Mocha, and JUnit. Wim's projects include an all-encompassing chatbot hosted on AWS named NextGPT.live, a voice assistant app for elderly tech coaching named Doorman, a software-in-the-loop simulation for autonomous drone navigation, and a learning-based differential equation solver with enhanced accuracy.",
             },
             ...context,
             { role: "user", content: userMessage },
