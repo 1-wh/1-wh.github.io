@@ -8,11 +8,11 @@ export default function Home() {
       <div className="mb-4 max-w-[600px] lg:max-w-[900px] xl:max-w-[1200px] w-full">
         <div className="flex items-center overflow-hidden">
           <Image
-            className="z-20 absolute translate-y-[5.5ch] sm:static sm:translate-y-0 mb-2 ml-5 sm:ml-10 mr-4 rounded-[36px] border-2 border-black/10 dark:border-white/60 p-0.5 bg-gray-100 dark:bg-black sm:bg-transparent sm:dark:bg-transparent"
+            className="z-20 absolute translate-y-[5.5ch] sm:static sm:translate-y-0 mb-2 ml-6 sm:ml-10 mr-4 rounded-[40px] border-2 border-black/10 dark:border-white/60 p-0.5 bg-gray-100 dark:bg-black sm:bg-transparent sm:dark:bg-transparent"
             src="/photo.png"
             alt="NextGPT.live"
-            width={72}
-            height={72}
+            width={80}
+            height={80}
             priority
           />
           <p className="mx-4 min-w-[388px] text-center sm:text-start font-sans max-w-[56ch] sm:max-w-none">
@@ -20,7 +20,7 @@ export default function Home() {
             <span className="font-semibold font-serif text-2xl">
               Wim He
             </span>
-            . Please feel free to converse with my AI assistant.
+            . Please feel free to chat with my AI assistant.
             <span className="hidden sm:inline"> It's here to help!</span>
           </p>
         </div>
