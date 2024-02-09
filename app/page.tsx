@@ -18,7 +18,7 @@ export default function Home() {
           <p className="mx-4 min-w-[388px] text-center sm:text-start font-sans max-w-[56ch] sm:max-w-none">
             Hello! I'm{" "}
             <span className="font-semibold font-serif text-2xl">
-              Mike Hyatt
+              Wim He
             </span>
             . Please feel free to converse with my AI assistant.
             <span className="hidden sm:inline"> It's here to help!</span>
